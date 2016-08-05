@@ -12,7 +12,7 @@ Don't worry about the `Test` files, those are only there to make sure the base o
 
 ## Goals
 
-We are trying to get a sense of your day to day skills, and ability to write production ready code. Meaning we are looking for modular, easy to read, and easy to maintain code.
+We are trying to get a sense of your day to day skills, and ability to write _production ready code_.
 
 Treat this as a small project you would be assigned and need to complete for an actual job. If you haven't used React much, don't try to learn it now, use something you are more comfortable with. We are not looking for people who know a particular framework.
 
@@ -37,7 +37,7 @@ http://localhost:3000/static/search.json?service=sitting
 
 __GIVEN__: A user comes to a search page  
 __WHEN__: The user views the page  
-__THEN__: They will see a list of results each with
+__THEN__: They will see a list of results containing:
 
 * A Title
   * With URL link to individual page.
