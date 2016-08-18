@@ -48,7 +48,7 @@ __THEN__: They will see a list of results containing:
 
 These are the rules for each field:
 * Url
- * created from the title field
+ * created from the title field located in search.json
  * dashes for spaces
  * Only alpha numeric characters, underscore and dashes
  * no double dashses
