@@ -4,7 +4,7 @@ To view how the search page acts go to https://dogvacay.com/browse
 We will be pseudo implementing some of the features.
 
 ## Assignment
-You will be implementing a basic search page for the DogVacay site. To do this you may use either, [Backbone.js](http://backbonejs.org/), [React.js](https://facebook.github.io/react/), or roll your own implementation with plain vanilla Javascript. Feel free to add in any npm modules or libraries to help you, such as [JQuery](https://jquery.com/). We've created a started app in the included folders, that you can use to get started.
+You will be implementing a few modules of a _LARGER PROJECT_ on the search page for the DogVacay site. We would like your code to be of _production quality_.  i.e. code that we can push to production and integrate into our repository. To do this you may use either, [Backbone.js](http://backbonejs.org/), [React.js](https://facebook.github.io/react/), or roll your own implementation with plain vanilla Javascript. Feel free to add in any npm modules or libraries to help you, such as [JQuery](https://jquery.com/). We've created a started app in the included folders, that you can use to get started.
 
 You can write it in ES5 or ES6, whichever you feel more comfortable with. (There is no need to go out of your comfort zone, just try to write good clean code.)  
 
@@ -40,7 +40,7 @@ __WHEN__: The user views the page
 __THEN__: They will see a list of results containing:
 
 * A Title
-  * With URL link to individual page.
+  * With URL link to individual page.  The rules to create the URL's are below.
 * First Name with Last Initial
 * Pet Name
 * Description
