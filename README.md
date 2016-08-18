@@ -4,7 +4,7 @@ To view how the search page acts go to https://dogvacay.com/browse
 We will be pseudo implementing some of the features.
 
 ## Assignment
-You will be implementing a few modules of a _LARGER PROJECT_ on the search page for the DogVacay site. We would like your code to be of _production quality_.  i.e. code that we can push to production and integrate into our repository. To do this you may use either, [Backbone.js](http://backbonejs.org/), [React.js](https://facebook.github.io/react/), or roll your own implementation with plain vanilla Javascript. Feel free to add in any npm modules or libraries to help you, such as [JQuery](https://jquery.com/). We've created a started app in the included folders, that you can use to get started.
+You will be implementing a few modules of a __LARGER PROJECT__ on the search page for the DogVacay site. We would like your code to be of __production quality__.  i.e. code that we can push to production and integrate into our repository. To do this you may use either, [Backbone.js](http://backbonejs.org/), [React.js](https://facebook.github.io/react/), or roll your own implementation with plain vanilla Javascript. Feel free to add in any npm modules or libraries to help you, such as [JQuery](https://jquery.com/). We've created a started app in the included folders, that you can use to get started.
 
 You can write it in ES5 or ES6, whichever you feel more comfortable with. (There is no need to go out of your comfort zone, just try to write good clean code.)  
 
@@ -12,7 +12,7 @@ Don't worry about the `Test` files, those are only there to make sure the base o
 
 ## Goals
 
-We are trying to get a sense of your day to day skills, and ability to write _production ready code_.
+We are trying to get a sense of your day to day skills, and ability to write __production ready code__.
 
 Treat this as a small project you would be assigned and need to complete for an actual job. If you haven't used React much, don't try to learn it now, use something you are more comfortable with. We are not looking for people who know a particular framework.
 
