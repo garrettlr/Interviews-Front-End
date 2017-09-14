@@ -1,10 +1,9 @@
 # PetList Test
-> These are a few features of the 'Search Page' on our site.  
-To view how the search page acts go to https://dogvacay.com/browse
+> These are a few features on a typical the 'Search Page'.  
 We will be pseudo implementing some of the features.
 
 ## Assignment
-You will be implementing a few modules of a __LARGER PROJECT__ on the search page for the DogVacay site. We would like your code to be of __production quality__.  i.e. code that we can push to production and integrate into our repository. To do this you may use either, [Backbone.js](http://backbonejs.org/), [React.js](https://facebook.github.io/react/), or roll your own implementation with plain vanilla Javascript. Feel free to add in any npm modules or libraries to help you, such as [JQuery](https://jquery.com/). We've created a started app in the included folders, that you can use to get started.
+You will be implementing a few modules of a __LARGER PROJECT__ on a search page. We would like your code to be of __production quality__.  i.e. code that we can push to production and integrate into our repository. To do this you may use either, [Backbone.js](http://backbonejs.org/), [React.js](https://facebook.github.io/react/), or roll your own implementation with plain vanilla Javascript. Feel free to add in any npm modules or libraries to help you, such as [JQuery](https://jquery.com/). We've created a started app in the included folders, that you can use to get started.
 
 You can write it in ES5 or ES6, whichever you feel more comfortable with. (There is no need to go out of your comfort zone, just try to write good clean code.)  
 
@@ -16,7 +15,7 @@ We are trying to get a sense of your day to day skills, and ability to write __p
 
 Treat this as a small project you would be assigned and need to complete for an actual job. If you haven't used React much, don't try to learn it now, use something you are more comfortable with. We are not looking for people who know a particular framework.
 
-You should spend only a few hours on this, and no more than about 4 hours. Don't take this is as a hard deadline, its more of a suggestion on our part. If you need a little extra time take it, but don't feel you need to spend several days on this.  
+You should spend only a few hours on this, and no more than about 4 hours. Don't take this as a hard deadline, its more of a suggestion on our part. If you need a little extra time take it, but don't feel you need to spend several days on this.  
 
 ## Data Endpoints
 
@@ -98,7 +97,7 @@ Once your dependencies are installed, you can run the command `npm run dev`. And
 ## Help
 Do whatever you feel you need to get this done or finished.
 (Feel free to google if you need to!) But if you have any questions about the test itself or what
-you need to do feel free to email Seth Broomer <seth@dogvacay.com>.
+you need to do feel free to email Seth Broomer <sbroomer@tigertext.com>.
 
 ## Submission
 Feel free to create a github repository and send us the link (encouraged!) or if you're more comfortable,
