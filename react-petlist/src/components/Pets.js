@@ -5,6 +5,7 @@ import buildDesc from '../utilities/buildDesc';
 
 const Pets = ({ title, firstName, lastName, petName, description }) => (
   <div id='petContainer'>
+    <br/>
     <a
       href={buildURL(title)}
       target='_blank'
