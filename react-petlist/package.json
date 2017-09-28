@@ -17,6 +17,7 @@
     }
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "flux": "*",
     "react": "^0.14.2",
     "react-ajax": "^0.1.1",
