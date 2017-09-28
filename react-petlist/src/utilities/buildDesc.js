@@ -5,11 +5,11 @@ const buildDesc = description => {
     if (description.length <= 48) {
       description;
     } else {
-      if (description[47] === ' ') description.slice(0, 48);
+      if (description[47] === ' ') `${description.slice(0, 47)}...`;
       else {
         let desc = description.slice(0,48);
         const trimPoint = trimDesc(desc);
-        desc.slice(0, trimPoint);
+        `${desc.slice(0, trimPoint)}...`;
       }
     }
   }

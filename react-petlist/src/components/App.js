@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Pets from './Pets';
-
+import Buttons from './Buttons'
 const ROUTE = 'http://localhost:3000/static/search.json';
 
-const err = [
-  {err: 'err'}
-]
 class App extends Component {
   constructor(props) {
     super(props);
@@ -38,6 +35,10 @@ also makes clear that component will render w/out data initially, giving dev fee
 
     return (
       <div className='container'>
+        <Buttons
+          route={ROUTE}
+          fetchPets={this.fetchPets}
+        />
         {pets}
       </div>
     );
