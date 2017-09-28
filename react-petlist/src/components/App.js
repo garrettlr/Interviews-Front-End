@@ -26,12 +26,14 @@ also makes clear that component will render w/out data initially, giving dev fee
 
   render() {
     const { petList } = this.state;
-    const pets = petList.map(pet => (<Pets
-      key={pet.pet.name}
-      title={pet.title}
-      person={pet.user.first}
-      petName={pet.pet.name}
-      description={pet.description}
+
+    const pets = petList.map(({ pet, title, description, user }) => (<Pets
+      key={pet.name}
+      title={title}
+      firstName={user.first}
+      lastName={user.last}
+      petName={pet.name}
+      description={description}
     />));
 
     return (
@@ -42,9 +44,5 @@ also makes clear that component will render w/out data initially, giving dev fee
   }
 
 }
-// fill out
-// App.propsTypes = {
-//
-// }
 
 export default App;
