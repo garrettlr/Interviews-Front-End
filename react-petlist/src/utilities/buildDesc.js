@@ -8,7 +8,7 @@ const buildDesc = description => {
     } else {
       if (description[47] === ' ') `${description.slice(0, 47)}...`;
       else {
-        let desc = description.slice(0,48);
+        let desc = description.slice(0,47);
         const trimPoint = trimDesc(desc);
         `${desc.slice(0, trimPoint)}...`;
       }
