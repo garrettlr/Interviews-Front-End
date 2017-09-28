@@ -1,6 +1,7 @@
 const trimDesc = description => description.lastIndexOf(' ');
 
 const buildDesc = description => {
+  // do expression, see https://babeljs.io/docs/plugins/transform-do-expressions/
   return do {
     if (description.length <= 48) {
       description;

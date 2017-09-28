@@ -1,15 +1,15 @@
 import React, { PropTypes } from 'react';
 
 const Buttons = ({ fetchPets, route }) => {
-  const fetchLocal = qs => fetchPets(route + qs);
-
+  const fetchBoarding = () => fetchPets(route + '?service=boarding');
+  const fetchSitting = () => fetchPets(route + '?service=sitting');
+  
   return (
     <div id='buttons'>
-      <button
-        onClick={() => fetchLocal('?service=boarding')}>
+      <button onClick={fetchBoarding}>
         Filter Boarding
       </button>
-      <button onClick={() => fetchLocal('?service=sitting')}>
+      <button onClick={fetchSitting}>
         Filter Sitting
       </button>
     </div>
