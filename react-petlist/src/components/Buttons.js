@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 
-const Buttons = ({ fetchPets, route}) => {
-  const fetchLocal = qs => fetchPets(route+qs);
+const Buttons = ({ fetchPets, route }) => {
+  const fetchLocal = qs => fetchPets(route + qs);
 
   return (
     <div id='buttons'>
