@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Pets from './Pets';
-import Buttons from './Buttons'
+import Buttons from './Buttons';
 const ROUTE = 'http://localhost:3000/static/search.json';
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { petList: [] };
+    this.state = { petList: [], err: null };
     this.fetchPets(ROUTE);
   }
 
@@ -19,10 +19,16 @@ also makes clear that component will render w/out data initially, giving dev fee
 
   fetchPets = route => axios.get(route)
     .then(response => this.setState({ petList: response.data.search }))
-    .catch(error => console.log('ERROR! ', error));
+    .catch(error => this.handleError(error));
+
+  handleError = error => {
+    const err = `An Error has occurred. Please try again! ${error}`;
+
+    this.setState({ err });
+  }
 
   render() {
-    const { petList } = this.state;
+    const { petList, err } = this.state;
 
     const pets = petList.map(({ pet, title, description, user }) => (<Pets
       key={pet.name}
@@ -40,10 +46,10 @@ also makes clear that component will render w/out data initially, giving dev fee
           fetchPets={this.fetchPets}
         />
         {pets}
+        <div id='err'> {err} </div>
       </div>
     );
   }
-
 }
 
 export default App;
