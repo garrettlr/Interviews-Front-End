@@ -18,7 +18,7 @@ also makes clear that component will render w/out data initially, giving dev fee
 */
 
   fetchPets = route => axios.get(route)
-    .then(response => this.setState({ petList: response.data.search }))
+    .then(response => this.setState({ petList: response.data.search, err: null }))
     .catch(error => this.handleError(error));
 
   handleError = error => {
@@ -38,16 +38,20 @@ also makes clear that component will render w/out data initially, giving dev fee
       petName={pet.name}
       description={description}
     />));
-
+// utilizes do expressions, see https://babeljs.io/docs/plugins/transform-do-expressions/
     return (
       <div className='container'>
-        <Buttons
-          route={ROUTE}
-          fetchPets={this.fetchPets}
-        />
-        {pets}
-        <div id='err'> {err} </div>
+         <Buttons
+           route={ROUTE}
+           fetchPets={this.fetchPets}
+         />
+
+      {do {
+        if (err !== null) <div id='err'>{err}</div>
+        else pets
+      }}
       </div>
+
     );
   }
 }
